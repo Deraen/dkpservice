@@ -1,0 +1,3 @@
+*.pyc
+django/env
+__pycache__

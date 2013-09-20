@@ -1,0 +1,84 @@
+- model: dkp.config
+  pk: 1
+  fields:
+    name: default_tier
+    value: 1
+- model: dkp.config
+  pk: 2
+  fields:
+    name: main_pool
+    value: 1
+
+- model: dkp.pool
+  pk: 1
+  fields:
+    name: Main
+    sort: 90
+- model: dkp.pool
+  pk: 2
+  fields:
+    name: Alt
+    sort: 80
+
+- model: dkp.tier
+  pk: 1
+  fields:
+    name: Tier 13
+    pool: 1
+    sort: 20
+- model: dkp.tier
+  pk: 2
+  fields:
+    name: Tier 12
+    pool: 1
+    sort: 10
+- model: dkp.tier
+  pk: 3
+  fields:
+    name: Tier 11
+    pool: 1
+    sort: 0
+
+- model: dkp.tier
+  pk: 4
+  fields:
+    name: Tier 13
+    pool: 2
+    sort: 30
+- model: dkp.tier
+  pk: 5
+  fields:
+    name: Tier 12
+    pool: 2
+    sort: 20
+- model: dkp.tier
+  pk: 6
+  fields:
+    name: Tessun 10man
+    pool: 2
+    sort: 0
+- model: dkp.tier
+  pk: 7
+  fields:
+    name: Tier 11
+    pool: 2
+    sort: 10
+- model: dkp.tier
+  pk: 8
+  fields:
+    name: Tier 14
+    pool: 2
+    sort: 21
+- model: dkp.tier
+  pk: 9
+  fields:
+    name: Tier 15
+    pool: 2
+    sort: 22
+- model: dkp.tier
+  pk: 10
+  fields:
+    name: Tier 16
+    sort: 23
+    pool: 2
+

@@ -1,0 +1,118 @@
+- model: dkp.gamerace
+  pk: 0
+  fields:
+    name: Unknown
+- model: dkp.gamerace
+  pk: 1
+  fields:
+    name: Human
+- model: dkp.gamerace
+  pk: 2
+  fields:
+    name: Orc
+- model: dkp.gamerace
+  pk: 3
+  fields:
+    name: Dwarf
+- model: dkp.gamerace
+  pk: 4
+  fields:
+    name: Night Elf
+- model: dkp.gamerace
+  pk: 5
+  fields:
+    name: Undead
+- model: dkp.gamerace
+  pk: 6
+  fields:
+    name: Tauren
+- model: dkp.gamerace
+  pk: 7
+  fields:
+    name: Gnome
+- model: dkp.gamerace
+  pk: 8
+  fields:
+    name: Troll
+- model: dkp.gamerace
+  pk: 10
+  fields:
+    name: Bloodelf
+- model: dkp.gamerace
+  pk: 11
+  fields:
+    name: Draenei
+- model: dkp.gamerace
+  pk: 22
+  fields:
+    name: Worgen
+- model: dkp.gamerace
+  pk: 9
+  fields:
+    name: Goblin
+- model: dkp.gamerace
+  pk: 25
+  fields:
+    name: Pandaren
+
+- model: dkp.gameclass
+  pk: 0
+  fields:
+    name: Unknown
+    css: unknown
+- model: dkp.gameclass
+  pk: 1
+  fields:
+    name: Warrior
+    css: warrior
+- model: dkp.gameclass
+  pk: 2
+  fields:
+    name: Paladin
+    css: paladin
+- model: dkp.gameclass
+  pk: 3
+  fields:
+    name: Hunter
+    css: hunter
+- model: dkp.gameclass
+  pk: 4
+  fields:
+    name: Rogue
+    css: rogue
+- model: dkp.gameclass
+  pk: 5
+  fields:
+    name: Priest
+    css: priest
+- model: dkp.gameclass
+  pk: 7
+  fields:
+    name: Shaman
+    css: shaman
+- model: dkp.gameclass
+  pk: 8
+  fields:
+    name: Mage
+    css: mage
+- model: dkp.gameclass
+  pk: 9
+  fields:
+    name: Warlock
+    css: warlock
+- model: dkp.gameclass
+  pk: 11
+  fields:
+    name: Druid
+    css: druid
+- model: dkp.gameclass
+  pk: 6
+  fields:
+    name: Death Knight
+    css: deathknight
+- model: dkp.gameclass
+  pk: 10
+  fields:
+    name: Monk
+    css: monk
+
